@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar | Case Studies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #3B82F6 0%, #06B6D4 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%);
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+        }
+        .case-study-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        .tag-analytics {
+            background-color: #DBEAFE;
+            color: #1E40AF;
+        }
+        .tag-strategy {
+            background-color: #D1FAE5;
+            color: #065F46;
+        }
+        .tag-finance {
+            background-color: #FCE7F3;
+            color: #9D174D;
+        }
+        .tag-marketing {
+            background-color: #FEF3C7;
+            color: #92400E;
+        }
+        .tag-product {
+            background-color: #E0E7FF;
+            color: #4338CA;
+        }
+        .tag-ai {
+            background-color: #D5F5F6;
+            color: #0E7490;
+        }
+    </style>
+</head>
+<body class="text-gray-700 bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="C:\Users\amana\Documents\VS code\index.html" class="text-xl font-bold gradient-text">Aman Kumar</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="C:\Users\amana\Documents\VS code\index.html" class="text-gray-700 hover:text-primary transition">Home</a>
+                    <a href="C:\Users\amana\Documents\VS code\index.html#about" class="text-gray-700 hover:text-primary transition">About</a>
+                    <a href="C:\Users\amana\Documents\VS code\index.html#skills" class="text-gray-700 hover:text-primary transition">Skills</a>
+                    <a href="C:\Users\amana\Documents\VS code\index.html#experience" class="text-gray-700 hover:text-primary transition">Experience</a>
+<a href="C:\Users\amana\Documents\VS code\index.html#contact" class="text-gray-700 hover:text-primary transition">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-gray-700 transition-transform duration-200 ease-in-out hover:scale-110 active:scale-95">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="C:\Users\amana\Documents\VS code\index.html" class="block px-3 py-2 text-gray-700 hover:text-primary">Home</a>
+                <a href="C:\Users\amana\Documents\VS code\index.html#about" class="block px-3 py-2 text-gray-700 hover:text-primary">About</a>
+                <a href="C:\Users\amana\Documents\VS code\index.html#skills" class="block px-3 py-2 text-gray-700 hover:text-primary">Skills</a>
+                <a href="C:\Users\amana\Documents\VS code\index.html#experience" class="block px-3 py-2 text-gray-700 hover:text-primary">Experience</a>
+<a href="C:\Users\amana\Documents\VS code\index.html#contact" class="block px-3 py-2 text-gray-700 hover:text-primary">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Case Studies</h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                Exploring how I've applied marketing strategy, analytics, and product thinking to deliver measurable outcomes.
+            </p>
+            <div class="w-20 h-1 gradient-bg mx-auto mt-6"></div>
+            <a href="C:\Users\amana\Documents\VS code\index.html" class="inline-block mt-8 px-6 py-3 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition">
+                <i data-feather="arrow-left" class="inline mr-2"></i> Back to Portfolio
+            </a>
+        </div>
+    </section>
+
+    <!-- Case Studies Grid -->
+    <section class="pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Case Study 1 -->
+            <div class="case-study-card bg-white rounded-xl shadow-md overflow-hidden h-full flex flex-col">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i data-feather="trending-up" class="text-white w-12 h-12"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tag-analytics px-3 py-1 rounded-full text-xs font-medium">ANALYTICS</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">STRATEGY</span>
+                        <span class="tag-finance px-3 py-1 rounded-full text-xs font-medium">FINANCE</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Portfolio Growth & Trading Desk Operations</h3>
+                    <div class="space-y-4 mb-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Problem</h4>
+                            <p class="text-gray-600">Investors needed consistent portfolio growth in a volatile market.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Result</h4>
+                            <p class="text-gray-600">Achieved 8% portfolio growth, $3,000 profit on $10,000 demo account.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-6 pb-6">
+                    <a href="#case-study-1" class="w-full gradient-bg text-white px-6 py-3 rounded-full font-medium text-center hover:shadow-lg transition-all duration-300 ease-in-out block">
+                        Read Case Study
+                    </a>
+                </div>
+            </div>
+
+            <!-- Case Study 2 -->
+            <div class="case-study-card bg-white rounded-xl shadow-md overflow-hidden h-full flex flex-col">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i data-feather="users" class="text-white w-12 h-12"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tag-marketing px-3 py-1 rounded-full text-xs font-medium">MARKETING</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">SALES</span>
+                        <span class="tag-product px-3 py-1 rounded-full text-xs font-medium">CUSTOMER SUCCESS</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Client Acquisition & Consultative Selling</h3>
+                    <div class="space-y-4 mb-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Problem</h4>
+                            <p class="text-gray-600">The travel agency needed to scale its client base and improve retention.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Result</h4>
+                            <p class="text-gray-600">Boosted sales by 25% and achieved 95% client satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-6 pb-6">
+                    <a href="#case-study-2" class="w-full gradient-bg text-white px-6 py-3 rounded-full font-medium text-center hover:shadow-lg transition-all duration-300 ease-in-out block">
+                        Read Case Study
+                    </a>
+                </div>
+            </div>
+
+            <!-- Case Study 3 -->
+            <div class="case-study-card bg-white rounded-xl shadow-md overflow-hidden h-full flex flex-col">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i data-feather="map" class="text-white w-12 h-12"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tag-product px-3 py-1 rounded-full text-xs font-medium">PRODUCT</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">STRATEGY</span>
+                        <span class="tag-marketing px-3 py-1 rounded-full text-xs font-medium">MARKETING</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Product Strategy Frameworks</h3>
+                    <div class="space-y-4 mb-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Problem</h4>
+                            <p class="text-gray-600">Academic projects required practical application of product management frameworks.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Result</h4>
+                            <p class="text-gray-600">Delivered structured product roadmaps with strong academic feedback.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-6 pb-6">
+                    <a href="#case-study-3" class="w-full gradient-bg text-white px-6 py-3 rounded-full font-medium text-center hover:shadow-lg transition-all duration-300 ease-in-out block">
+                        Read Case Study
+                    </a>
+                </div>
+            </div>
+
+            <!-- Case Study 4 -->
+            <div class="case-study-card bg-white rounded-xl shadow-md overflow-hidden h-full flex flex-col">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i data-feather="cpu" class="text-white w-12 h-12"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tag-ai px-3 py-1 rounded-full text-xs font-medium">AI</span>
+                        <span class="tag-product px-3 py-1 rounded-full text-xs font-medium">PRODUCT</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">EDUCATION</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">AI Prompt Engineering for Trading</h3>
+                    <div class="space-y-4 mb-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Problem</h4>
+                            <p class="text-gray-600">Needed innovative ways to integrate AI into trading education and decision-making.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Result</h4>
+                            <p class="text-gray-600">Created scalable frameworks for AI-assisted trading analysis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-6 pb-6">
+                    <a href="#case-study-4" class="w-full gradient-bg text-white px-6 py-3 rounded-full font-medium text-center hover:shadow-lg transition-all duration-300 ease-in-out block">
+                        Read Case Study
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Case Studies -->
+    <section class="pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto space-y-16">
+        <!-- Case Study 1 Detail -->
+        <div id="case-study-1" class="bg-white rounded-2xl shadow-lg p-8">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Portfolio Growth & Trading Desk Operations</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag-analytics px-3 py-1 rounded-full text-xs font-medium">ANALYTICS</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">STRATEGY</span>
+                        <span class="tag-finance px-3 py-1 rounded-full text-xs font-medium">FINANCE</span>
+                    </div>
+                </div>
+</div>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Problem</h3>
+                    <p class="text-gray-600">Investors needed consistent portfolio growth in a volatile market environment, requiring data-driven decision making to optimize trading strategies and minimize risk.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Action</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Applied technical analysis techniques including RSI, Bollinger Bands, and Moving Averages to identify optimal entry and exit points</li>
+                        <li>Built financial models to simulate different market scenarios and potential outcomes</li>
+                        <li>Iterated trading strategies daily based on market conditions and performance data</li>
+                        <li>Developed risk management frameworks to protect investor capital during market downturns</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Result</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Achieved 8% portfolio growth in challenging market conditions</li>
+                        <li>Generated $3,000 profit on a $10,000 demo account</li>
+                        <li>Facilitated 50%+ growth in investor capital under management</li>
+                        <li>Developed repeatable frameworks for data-driven trading decisions</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Reflection</h3>
+                    <p class="text-gray-600">This experience strengthened my ability to analyze complex data, test hypotheses, and iterate quickly — skills directly transferable to product experimentation and roadmap validation. The financial modeling expertise serves as a supporting strength for data-driven product decisions focused on market outcomes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Study 2 Detail -->
+        <div id="case-study-2" class="bg-white rounded-2xl shadow-lg p-8">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Client Acquisition & Consultative Selling</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag-marketing px-3 py-1 rounded-full text-xs font-medium">MARKETING</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">SALES</span>
+                        <span class="tag-product px-3 py-1 rounded-full text-xs font-medium">CUSTOMER SUCCESS</span>
+                    </div>
+                </div>
+</div>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Problem</h3>
+                    <p class="text-gray-600">Get Trip GO needed to scale its client base and improve retention in the highly competitive travel industry, where differentiation and customer experience are key to success.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Action</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Built network of 50+ vendor partnerships to expand service offerings</li>
+                        <li>Implemented consultative selling approach focused on understanding customer needs</li>
+                        <li>Designed targeted customer engagement strategies based on traveler personas</li>
+                        <li>Developed feedback loops to continuously improve service delivery</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Result</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Successfully managed 300+ clients with diverse travel needs</li>
+                        <li>Boosted sales by 25% through strategic marketing initiatives</li>
+                        <li>Achieved 95% client satisfaction rating through personalized service</li>
+                        <li>Established repeat customer base that contributed to 40% of revenue</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Reflection</h3>
+                    <p class="text-gray-600">This experience taught me how to translate customer insights into measurable business outcomes — the same mindset I now apply to product adoption and retention strategies. Understanding customer pain points and tailoring solutions is equally critical in both service delivery and product management.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Study 3 Detail -->
+        <div id="case-study-3" class="bg-white rounded-2xl shadow-lg p-8">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Product Strategy Frameworks</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag-product px-3 py-1 rounded-full text-xs font-medium">PRODUCT</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">STRATEGY</span>
+                        <span class="tag-marketing px-3 py-1 rounded-full text-xs font-medium">MARKETING</span>
+                    </div>
+                </div>
+</div>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Problem</h3>
+                    <p class="text-gray-600">Academic projects required practical application of product management frameworks, bridging the gap between theoretical knowledge and real-world product strategy execution.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Action</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Designed comprehensive go-to-market strategies for hypothetical products</li>
+                        <li>Created detailed Product Requirement Documents (PRDs) with user stories</li>
+                        <li>Developed wireframes and user flows to visualize product experiences</li>
+                        <li>Applied STP (Segmentation, Targeting, Positioning) and AIDA frameworks</li>
+                        <li>Conducted competitive analysis and market sizing exercises</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Result</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Delivered structured product roadmaps demonstrating customer-centric thinking</li>
+                        <li>Received strong academic feedback for strategic rigor and practical application</li>
+                        <li>Developed frameworks that can be directly applied to real product challenges</li>
+                        <li>Presented findings to faculty and peers, improving communication skills</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Reflection</h3>
+                    <p class="text-gray-600">These projects reinforced my ability to bridge marketing strategy with product execution, preparing me to own product features in real-world settings. The structured approach to problem-solving and framework application will be valuable in collaborating with cross-functional teams and aligning product development with business objectives.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Study 4 Detail -->
+        <div id="case-study-4" class="bg-white rounded-2xl shadow-lg p-8">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">AI Prompt Engineering for Trading</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag-ai px-3 py-1 rounded-full text-xs font-medium">AI</span>
+                        <span class="tag-product px-3 py-1 rounded-full text-xs font-medium">PRODUCT</span>
+                        <span class="tag-strategy px-3 py-1 rounded-full text-xs font-medium">EDUCATION</span>
+                    </div>
+                </div>
+</div>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Problem</h3>
+                    <p class="text-gray-600">There was a need to integrate emerging AI technologies into both trading decision-making processes and financial education, requiring innovative approaches to prompt engineering and curriculum design.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Action</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Developed structured prompt-engineering workflows for generating trading insights</li>
+                        <li>Designed modular curriculum for AI-assisted financial literacy education</li>
+                        <li>Tested and refined prompts for accuracy, relevance, and usability</li>
+                        <li>Created evaluation frameworks to assess AI output quality</li>
+                        <li>Implemented feedback loops to continuously improve prompt effectiveness</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Result</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Created scalable frameworks for AI-assisted trading analysis</li>
+                        <li>Developed educational content that improved comprehension of complex financial concepts</li>
+                        <li>Reduced research time by 30% through effective prompt engineering</li>
+                        <li>Increased accuracy of market analysis by incorporating AI validation checks</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Reflection</h3>
+                    <p class="text-gray-600">This project showcased my ability to leverage emerging technologies to create practical solutions — a mindset I apply to developing AI-driven product features and customer experiences. The experience in designing structured approaches to working with AI will be increasingly valuable as these technologies become more integrated into product development workflows.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-12">
+            <a href="C:\Users\amana\Documents\VS code\index.html" class="inline-flex items-center px-6 py-3 rounded-full border border-gray-300 text-gray-700 font-medium hover:bg-gray-100 transition">
+                <i data-feather="arrow-left" class="mr-2"></i> Back to Portfolio
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">Let's Connect</h3>
+                    <p class="text-gray-400">Interested in discussing opportunities or collaborations?</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition">
+                        <i data-feather="twitter"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition">
+                        <i data-feather="mail"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2023 Aman Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+        
+        // Mobile menu toggle
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if(this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
